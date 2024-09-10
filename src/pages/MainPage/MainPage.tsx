@@ -1,10 +1,10 @@
 import './MainPage.css'
-import {Header} from "../../components";
+import {Form, Header} from "../../components";
 
 export const MainPage = () => {
   return (<div className="page-wrapper">
     <Header />
-    <div className="form">Form</div>
+    <Form />
     <div className="footer">Footer</div>
   </div>)
 }
