@@ -2,6 +2,7 @@ import styles from './Form.module.css'
 import { useState} from "react";
 import {TextInput} from "../TextInput";
 
+
 export const Form = () => {
     const onClick = () => {
         console.log('username')
@@ -16,10 +17,10 @@ export const Form = () => {
 
         return (
         <div className={styles.form}>
-            <TextInput title={'Имя'} value={username} onChange={setUsername}/>
-            <TextInput title={'Телефон'} value={phone} onChange={setPhone}/>
-            <TextInput title={'Email'} value={email} onChange={setEmail}/>
-            <TextInput title={'Адрес'} value={address} onChange={setAddress}/>
+            <TextInput placeholder={'Введите имя'} title={'Имя'} value={username} onChange={setUsername}/>
+            <TextInput placeholder={'Введите телефон'}title={'Телефон'} value={phone} onChange={setPhone}/>
+            <TextInput placeholder={'Введите Email'}title={'Email'} value={email} onChange={setEmail}/>
+            <TextInput placeholder={'Введите адрес'} title={'Адрес'} value={address} onChange={setAddress}/>
 
             <button onClick={onClick} className={styles.submitButton}>Сохранить</button>
 

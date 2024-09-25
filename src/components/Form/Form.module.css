@@ -1,5 +1,6 @@
 .form {
-    border: 5px solid #bdbdc4;
+    border: 10px solid rgba(76, 76, 208, 0.34);
+    border-radius: 1000px;
     min-height: 400px;
 
     display: flex;
