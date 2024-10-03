@@ -15,7 +15,7 @@ export const Form = () => {
   const [address, setAddress] = useState("");
 
   return (
-    <div className={styles.form}>
+    <div id="form" className={styles.form}>
       <TextInput
         placeholder={"Введите имя"}
         title={"Имя"}
