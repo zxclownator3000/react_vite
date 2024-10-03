@@ -1,7 +1,7 @@
 import "./MainPage.css";
 import { Form, Header, Counter } from "../../components";
 import { useState } from "react";
-import { Footer } from "../../components/Footer/Footer.tsx";
+import { Footer } from "../../components/Footer";
 
 export const MainPage = () => {
   const [pageId, setPageId] = useState(0);
