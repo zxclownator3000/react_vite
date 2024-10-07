@@ -1,9 +1,10 @@
 import styles from "./Form.module.css";
 import { useState } from "react";
 import { TextInput } from "../TextInput";
+import { Button } from "../Button";
 
 export const Form = () => {
-  const onClick = () => {
+  const handleClick = () => {
     console.log("username");
     console.log(username);
   };
@@ -40,9 +41,7 @@ export const Form = () => {
         onChange={setAddress}
       />
 
-      <button onClick={onClick} className={styles.submitButton}>
-        Сохранить
-      </button>
+      <Button onClick={handleClick} label={"Сохранить"} />
     </div>
   );
 };

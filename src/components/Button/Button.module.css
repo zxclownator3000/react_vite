@@ -1,0 +1,28 @@
+.button {
+    min-height: 40px;
+    width: auto;
+}
+.button {
+    max-width: 20%;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Внутренние отступы */
+    font-size: 18px; /* Размер шрифта */
+    color: #cecbea; /* Цвет текста */
+    background-color: rgba(116, 117, 183, 0.66); /* Цвет фона */
+    border-radius: 50px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
+    transition: scale ease-in-out 5ms;
+    font-family: Leelawadee;
+}
+.button:hover {
+    background-color: #8266af;
+}
+.button:active{
+    background-color: rgba(0, 0, 128, 0.34);
+    scale: 1.1;
+
+}
