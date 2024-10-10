@@ -1,10 +1,6 @@
 .button {
     min-height: 40px;
-    width: auto;
-}
-.button {
     max-width: 20%;
-
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -18,10 +14,12 @@
     transition: scale ease-in-out 5ms;
     font-family: Leelawadee;
 }
+
 .button:hover {
     background-color: #8266af;
 }
-.button:active{
+
+.button:active {
     background-color: rgba(0, 0, 128, 0.34);
     scale: 1.1;
 
